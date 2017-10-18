@@ -1,0 +1,30 @@
+ .menu_item {
+ 	width:  150px;
+ 	border: 1px solid blue;
+ 	border-radius: 4px;
+ 	margin: 20px 10px;
+ }
+ .article {
+ 	/* width: 48%;
+ 		float: left; */
+ 	overflow: hidden;
+ 	margin:  10px 1%;
+	padding: 0 25px;
+ 	border: 1px solid blue;
+ 	border-radius: 4px;
+ }
+ .article__trash {
+ 	box-sizing: border-box;
+ 	float: right;
+ 	margin-bottom: 20px;
+ 	font-size: 20px;
+ }.article__trash:hover {
+ 	font-size: 30px;
+ 	padding: 0;
+ 	margin-bottom: 6px;
+ }
+ .glyphicon-trash {
+ }
+ .article__date {
+ 	float: left;
+ }
